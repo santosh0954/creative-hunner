@@ -1,0 +1,16 @@
+{
+  "name": "creative-hunner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "style": "npx tailwindcss -i ./pcss/style.css -o ./src/css/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
