@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", function () {
       toggleMenu.classList.toggle("hidden");
       toggleMenu.classList.toggle("flex");
       toggleMenu.classList.toggle("animate-fadeDown");
-      toggleMenu.addEventListener("animationend", () => {
-        console.log("working");
-      });
+      // toggleMenu.addEventListener("animationend", () => {
+      //   console.log("working");
+      // });
     });
   });
 });
