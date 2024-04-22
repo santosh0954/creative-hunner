@@ -739,6 +739,18 @@ video {
   width: 100%;
 }
 
+.w-52 {
+  width: 13rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -753,6 +765,10 @@ video {
 
 .max-w-screen-xl {
   max-width: 1280px;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .grow {
@@ -777,6 +793,22 @@ video {
 
 .basis-full {
   flex-basis: 100%;
+}
+
+.basis-24 {
+  flex-basis: 6rem;
+}
+
+.basis-56 {
+  flex-basis: 14rem;
+}
+
+.basis-52 {
+  flex-basis: 13rem;
+}
+
+.basis-28 {
+  flex-basis: 7rem;
 }
 
 @keyframes fadeDown {
@@ -1316,6 +1348,10 @@ body {
 
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:w-\[calc\(50\%-32px\)\] {
+    width: calc(50% - 32px);
   }
 
   .md\:basis-1\/2 {
