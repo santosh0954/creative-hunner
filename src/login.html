@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Knowledge Training | Creative Hunner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header class="bg-white relative z-50">
+    <nav class="container flex flex-wrap justify-between items-center py-4 font-medium">
+      <span class="basis-1/2 md:basis-1/4 order-1">
+        <a href="./"
+          class="font-bold text-xl bg-gradient-to-r from-orange-500  to-slate-900 text-transparent bg-clip-text ">
+          Creative
+          Hunner
+        </a>
+      </span>
+
+      <div class="basis-1/2 md:basis-1/4 text-right order-2 md:order-3">
+        <a href="./register.html"
+          class="px-5 py-2 bg-slate-800 hover:bg-slate-900 text-white/90 hover:text-white transition-all rounded">Register</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="py-8 bg-slate-100 min-h-svh">
+    <form action="#" class="block mx-auto max-w-screen-md space-y-3 bg-white p-8 rounded-md shadow">
+      <h1 class="text-2xl font-semibold mb-4">Login</h1>
+      <div class="space-y-1">
+        <label for="name">Email:</label>
+        <input type="email" id="name"
+          class="w-full border rounded px-3 py-1 border-neutral-300 placeholder:font-light placeholder:text-sm placeholder:text-slate-400/50 focus:outline-2 focus:outline-sky-200 outline-offset-4"
+          placeholder="Email here">
+      </div>
+      <div class="space-y-1">
+        <label for="name">Password:</label>
+        <input type="password" id="name"
+          class="w-full border rounded px-3 py-1 border-neutral-300 placeholder:font-light placeholder:text-sm placeholder:text-slate-400/50 focus:outline-2 focus:outline-sky-200 outline-offset-4"
+          placeholder="Password here">
+      </div>
+      <div class="space-y-1">
+        <label class="align-middle">
+          <input type="checkbox" class="size-4 mr-2 align-middle accent-slate-600 peer">
+          <span class="peer-checked:text-slate-600 transition-colors"> Remember me </span>
+        </label>
+      </div>
+      <button
+        class="bg-slate-800 text-white/90 hover:text-white hover:bg-slate-900 hover:shadow-lg transition-all px-8 py-2 rounded shadow">
+        Login
+      </button>
+      <p class="text-sm">
+        Don't have account.
+        <a href="./register.html" class="underline hover:text-orange-500 transition-all">register here</a>
+      </p>
+    </form>
+  </main>
+
+  <footer class="bg-gradient-to-b from-slate-900 to-slate-950 text-white py-4">
+    <div class="container">
+      <div class="w-full text-center text-sm text-gray-400">
+        &copy; 2024 Creative Hunner. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
